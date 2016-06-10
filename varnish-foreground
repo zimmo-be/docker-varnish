@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+varnishd -F -f /etc/varnish/default.vcl -s malloc,${VARNISH_MEMORY} -a :80
