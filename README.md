@@ -1,7 +1,7 @@
 # How to use this image
 
     varnish:
-      image: zimmo-varnish:latest
+      image: zimmobe/varnish:latest
       volumes:
         - project.vcl:/etc/varnish/default.vcl
       links:
